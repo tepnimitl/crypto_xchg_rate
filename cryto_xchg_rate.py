@@ -40,6 +40,6 @@ for i in range(0,len(crypt_bn_sym)):
   print(crypt_sym[i] + ',' + str(price_bn) + ',' + str(price_bk) + ',' + str(xe))
 
 print("==========================================")
-for i in xe_list:
-  print(i)
+for i in range(0,len(crypt_sym)):
+  print(crypt_sym[i] +' '+ str(xe_list[i]))
 print("==========================================")
